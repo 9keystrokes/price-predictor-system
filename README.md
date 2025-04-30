@@ -92,6 +92,3 @@ zenml experiment-tracker register mlflow_tracker --flavor=mlflow
 zenml model-deployer register mlflow --flavor=mlflow
 zenml stack register local-mlflow-stack -a default -o default -d mlflow -e mlflow_tracker --set
 ```
-
-- Email: your.email@example.com
-- LinkedIn: [linkedin.com/in/your-profile](https://linkedin.com/in/your-profile)
